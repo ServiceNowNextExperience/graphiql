@@ -7,6 +7,9 @@ Simply use source control to install this in your ServiceNow instance and make s
 
 Then navigate to "System Web Services > GraphQL > GraphQL Explorer".
 
+Available at the path:
+/now/nav/ui/classic/params/target/x_snc_graphiql_gql.do
+
 Type "{" then ctrl-space in the editor and you will see the available GraphQL Services.
 
 Sample query:
