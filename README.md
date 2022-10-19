@@ -1,5 +1,5 @@
 # GraphiQL Client
-A simple client side GraphiQL implementation that allows you to make queries from within the tool.
+A simple ServiceNow GraphiQL implementation that allows you to make queries from within a tool within your instance.
 
 Based on the https://github.com/graphql/graphiql repo, specifically the [CDN Example](https://github.com/graphql/graphiql/tree/main/examples/graphiql-cdn).
 
