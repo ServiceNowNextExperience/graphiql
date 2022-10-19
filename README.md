@@ -14,16 +14,20 @@ Sample query:
 ```
 {
   GlideRecord_Query {
-    incident(queryConditions: "active=true" pagination:{limit:5}) {
+    incident(queryConditions: "active=true", pagination: {limit: 5}) {
       _rowCount
-      _results { short_description {
-        value
-      } sys_id {
-        value
-      } state {
-        value
-        displayValue
-      }}
+      _results {
+        short_description {
+          value
+        }
+        sys_id {
+          value
+        }
+        state {
+          value
+          displayValue
+        }
+      }
     }
   }
 }
