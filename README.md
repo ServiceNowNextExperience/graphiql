@@ -13,11 +13,17 @@ Sample query:
 
 ```
 {
-  now {
-    uxf_user {
-      presence {
-        user_available
-      }
+  GlideRecord_Query {
+    incident(queryConditions: "active=true" pagination:{limit:5}) {
+      _rowCount
+      _results { short_description {
+        value
+      } sys_id {
+        value
+      } state {
+        value
+        displayValue
+      }}
     }
   }
 }
