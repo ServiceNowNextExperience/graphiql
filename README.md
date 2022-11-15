@@ -6,7 +6,7 @@ Based on the https://github.com/graphql/graphiql repo, specifically the [CDN Exa
 **Do Not Install on a Prod Instance--for Dev Use Only**
 
 ## Installation
-1. Simply use source control to fork this repo and install that into your ServiceNow instance using Studio. 
+1. Simply use source control to fork this repo and install that into your ServiceNow instance using Studio. (Use the "Fork" button at the top right of this page.)
 2. Make sure that introspection is enabled at "System Web Services > GraphQL > Properties" (NOTE: DO THIS FOR DEV INSTANCES ONLY).  
 3. Note: **turning on GlideRecord introspection** means that the *entire* schema of all your tables and fields will be downloaded. Needless to say this will take a couple of minutes each time the schema updates in the client.  If you are not using the GlideRecord_Query API you will want to leave this off, but luckily you only take this hit the first time you load the GraphQL client each day.
 
