@@ -5,6 +5,8 @@ Based on the https://github.com/graphql/graphiql repo, specifically the [CDN Exa
 
 **Do Not Install on a Prod Instance--for Dev Use Only**
 
+NOTE: An important side-effect of using this versus an external 3rd party tool is the ability to set breakpoints in your resolvers since the session is teh same.
+
 ## Installation
 1. Simply use source control to fork this repo and install that into your ServiceNow instance using Studio. (Use the "Fork" button at the top right of this page.)
 2. Make sure that introspection is enabled at "System Web Services > GraphQL > Properties" (NOTE: DO THIS FOR DEV INSTANCES ONLY).  
