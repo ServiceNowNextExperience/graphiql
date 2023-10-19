@@ -10,7 +10,7 @@
         <image/>
         <link_type>DIRECT</link_type>
         <map_page/>
-        <mobile_title>GraphQL Explorer</mobile_title>
+        <mobile_title>GraphiQL Explorer</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
         <order>6300</order>
@@ -24,14 +24,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e9c82ac38722d11089790fe5dabb3565</sys_id>
-        <sys_name>GraphQL Explorer</sys_name>
+        <sys_name>GraphiQL Explorer</sys_name>
         <sys_overrides/>
         <sys_package display_value="GraphiQL" source="x_snc_graphiql">407d86c347eed110552caf52736d4301</sys_package>
         <sys_policy/>
         <sys_scope display_value="GraphiQL">407d86c347eed110552caf52736d4301</sys_scope>
         <sys_update_name>sys_app_module_e9c82ac38722d11089790fe5dabb3565</sys_update_name>
         <timeline_page/>
-        <title>GraphQL Explorer</title>
+        <title>GraphiQL Explorer</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
