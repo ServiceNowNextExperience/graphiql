@@ -1,5 +1,5 @@
 # GraphiQL Client
-*NOTE For Washington DC Users--GraphiQL is now included OOB for W+* Look for "GraphQL Explorer"
+**NOTE For Washington DC Users--GraphiQL is now included OOB for W+** Look for "GraphQL Explorer"
 
 A simple ServiceNow GraphiQL implementation that allows you to make queries from within your instance.
 
