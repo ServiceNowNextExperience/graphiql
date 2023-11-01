@@ -25,7 +25,7 @@ Type "{" then ctrl-space in the editor and you will see the available GraphQL Se
 Sample query:
 
 ```
-query ($limit: Int = 5, $queryConditions: "active=true") {
+query ($limit: Int = 5, $queryConditions: String = "active=true") {
   GlideRecord_Query {
     incident(queryConditions: $queryConditions, pagination: {limit: $limit}) {
       _rowCount
